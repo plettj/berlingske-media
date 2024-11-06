@@ -11,7 +11,6 @@ const nextConfig = {
       {
         domain: "www.berlingskemedia.org",
         defaultLocale: "en",
-        locales: ["en-CA", "en-US", "en-GB", "en-AU", "en-NZ", "en-IN"],
       },
       {
         domain: "dk.berlingskemedia.org",
