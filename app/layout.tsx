@@ -3,6 +3,7 @@ import { Montserrat } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import { ThemeProvider } from "next-themes";
+import { SOCIAL_IMAGE } from "@/lib/constants";
 
 const fontSans = Montserrat({
   subsets: ["latin"],
@@ -50,19 +51,19 @@ export const metadata: Metadata = {
     title: "Berlingske Media",
     description:
       "Free and responsible press for an informed democracy through Berlingske, B.T., Weekendavisen, and Euroinvestor.",
-    // images: [
-    //   {
-    //     url: "https://www.berlingskemedia.dk/og-image.jpg",
-    //     width: 1200,
-    //     height: 630,
-    //     alt: "Berlingske Media Banner",
-    //   },
-    // ],
+    images: [
+      {
+        url: SOCIAL_IMAGE,
+        width: 1600,
+        height: 900,
+        alt: "Berlingske Media Logo",
+      },
+    ],
   },
   twitter: {
     title: "Berlingske Media",
     description: "Denmark's trusted source for free, independent news.",
-    // image: "https://www.berlingskemedia.dk/twitter-image.jpg",
+    images: SOCIAL_IMAGE,
     site: "@berlingskemedia",
   },
   publisher: "Berlingske Media",
