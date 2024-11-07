@@ -6,7 +6,7 @@ import { Button } from "../ui/button";
 import Link from "next/link";
 import { COPYRIGHT_STRING_DK, COPYRIGHT_STRING_EN } from "@/lib/constants";
 
-export default function HomePage({ isOrgDomain }: { isOrgDomain: boolean }) {
+export default function HomePage() {
   const [isEn, setIsEn] = useState(true);
 
   useEffect(() => {
@@ -30,19 +30,11 @@ export default function HomePage({ isOrgDomain }: { isOrgDomain: boolean }) {
         )}
       </h1>
       <p className="mb-8 text-balance text-[18px] opacity-90">
-        Josiah, Thien, Ben, Srishti
+        <a href="https://plett.dev" className="underline hover:opacity-75">
+          Josiah
+        </a>
+        , Thien, Ben, Srishti
       </p>
-      {isOrgDomain ? (
-        <Button className="w-56" asChild>
-          <Link href="https://www.berlinskemedia.com/">berlinskemedia.com</Link>
-        </Button>
-      ) : (
-        <Button className="w-56" asChild>
-          <Link href="https://www.berlingskemedia.org/">
-            berlingskemedia.org
-          </Link>
-        </Button>
-      )}
       <Button className="w-56" variant="outline" asChild>
         <Link href="https://www.berlingskemedia.dk/">berlingskemedia.dk</Link>
       </Button>

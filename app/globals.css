@@ -71,4 +71,7 @@
   body {
     @apply bg-background text-foreground underline-offset-2;
   }
+  a {
+    @apply decoration-1;
+  }
 }
