@@ -1,6 +1,8 @@
-# owengames.com
+# berlingskemedia.org
 
-[Owen's Games](https://owengames.com)
+[Berlingske Media mock landing page](https://www.berlingskemedia.org).
+
+Also on [berlinskemedia.com](https://www.berlinskemedia.com).
 
 ### Tech
 
