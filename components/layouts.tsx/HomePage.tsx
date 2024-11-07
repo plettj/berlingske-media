@@ -7,7 +7,7 @@ import Link from "next/link";
 import { COPYRIGHT_STRING_DK, COPYRIGHT_STRING_EN } from "@/lib/constants";
 
 export default function HomePage({ isOrgDomain }: { isOrgDomain: boolean }) {
-  const [isEn, setIsEn] = useState(false);
+  const [isEn, setIsEn] = useState(true);
 
   useEffect(() => {
     const host = window.location.host;
@@ -34,9 +34,7 @@ export default function HomePage({ isOrgDomain }: { isOrgDomain: boolean }) {
       </p>
       {isOrgDomain ? (
         <Button className="w-56" asChild>
-          <Link href="https://www.berlingskemedia.com/">
-            berlinskemedia.com
-          </Link>
+          <Link href="https://www.berlinskemedia.com/">berlinskemedia.com</Link>
         </Button>
       ) : (
         <Button className="w-56" asChild>
@@ -49,7 +47,13 @@ export default function HomePage({ isOrgDomain }: { isOrgDomain: boolean }) {
         <Link href="https://www.berlingskemedia.dk/">berlingskemedia.dk</Link>
       </Button>
       <p className="my-8 text-balance text-muted-foreground">
-        {isEn ? COPYRIGHT_STRING_EN : COPYRIGHT_STRING_DK}
+        {isEn ? COPYRIGHT_STRING_EN : COPYRIGHT_STRING_DK}{" "}
+        <a
+          href="https://plett.dev"
+          className="text-muted-foreground hover:underline"
+        >
+          Josiah Plett
+        </a>
       </p>
     </div>
   );

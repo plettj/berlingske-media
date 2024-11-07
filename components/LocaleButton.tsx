@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
+import { redirect } from "next/navigation";
 
 export default function LocaleButton({ className }: { className?: string }) {
   const [isDK, setIsDK] = useState(false);
@@ -17,7 +18,7 @@ export default function LocaleButton({ className }: { className?: string }) {
       ? host.replace("dk.", "www.")
       : host.replace("www.", "dk.");
     const newUrl = `${window.location.protocol}//${newHost}${window.location.pathname}`;
-    window.location.assign(newUrl);
+    redirect(newUrl);
   };
 
   return (

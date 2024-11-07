@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en",
-    url: "https://en.berlingskemedia.org",
+    url: "https://www.berlingskemedia.org",
     siteName: "berlingskemedia.org",
     title: "Berlingske Media",
     description:
@@ -71,7 +71,7 @@ export const metadata: Metadata = {
     canonical: "https://www.berlingskemedia.org",
     languages: {
       da: "https://dk.berlingskemedia.org",
-      en: "https://en.berlingskemedia.org",
+      en: "https://www.berlingskemedia.org",
     },
   },
 };
