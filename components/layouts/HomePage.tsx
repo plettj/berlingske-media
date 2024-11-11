@@ -3,7 +3,11 @@
 import { useEffect, useState } from "react";
 import { Button } from "../ui/button";
 import Link from "next/link";
-import { COPYRIGHT_STRING_DK, COPYRIGHT_STRING_EN } from "@/lib/constants";
+import {
+  COPYRIGHT_STRING_DK,
+  COPYRIGHT_STRING_EN,
+  TEAM_NAME,
+} from "@/lib/constants";
 
 export default function HomePage() {
   const [isEn, setIsEn] = useState(true);
@@ -30,13 +34,13 @@ export default function HomePage() {
         )}
       </h1>
       <p className="mb-8 text-balance text-[18px] opacity-90">
-        Team name: <i>Distributed Media</i>
+        Team name: <i>{TEAM_NAME}</i>
       </p>
       <Button className="w-56" variant="outline" asChild>
         <Link href="https://www.berlingskemedia.dk/">berlingskemedia.dk</Link>
       </Button>
       <p className="my-8 text-balance text-muted-foreground">
-        {isEn ? COPYRIGHT_STRING_EN : COPYRIGHT_STRING_DK} Distributed Media
+        {isEn ? COPYRIGHT_STRING_EN : COPYRIGHT_STRING_DK} {TEAM_NAME}
       </p>
     </div>
   );

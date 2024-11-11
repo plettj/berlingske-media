@@ -5,3 +5,5 @@ export const SOCIAL_IMAGE =
 
 export const COPYRIGHT_STRING_EN = `Copyright ${new Date().getFullYear()} ©`;
 export const COPYRIGHT_STRING_DK = `Ophavsret ${new Date().getFullYear()} ©`;
+
+export const TEAM_NAME = "Berlingske Mobile";
