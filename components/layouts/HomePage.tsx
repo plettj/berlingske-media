@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import LocaleButton from "../LocaleButton";
 import { Button } from "../ui/button";
 import Link from "next/link";
 import { COPYRIGHT_STRING_DK, COPYRIGHT_STRING_EN } from "@/lib/constants";
@@ -17,7 +16,7 @@ export default function HomePage() {
 
   return (
     <div className="relative flex flex-col mx-12 gap-4 my-auto items-start">
-      <LocaleButton className="absolute -right-3 -top-16 text-base" />
+      {/* <LocaleButton className="absolute -right-3 -top-16 text-base" /> */}
       <h1 className="mt-8 mb-4 -ml-1 text-6xl leading-tight">
         {isEn ? (
           <>
