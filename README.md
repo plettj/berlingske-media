@@ -31,5 +31,15 @@ You can find our team's official submission [here](public/static/berlingske-mobi
 
 - **Framework:** [Next.js](https://nextjs.org/)
 - **Hosting:** [Vercel](https://vercel.com)
-- **Styling:** [shadcn/ui](https://ui.shadcn.com/) with [Tailwind CSS](https://tailwindcss.com), themes scraped from [Berlingske Media](https://www.berlingskemedia.dk)
+- **Styling:** [shadcn/ui](https://ui.shadcn.com/) with [Tailwind CSS](https://tailwindcss.com)
 - **Presentation:** [Canva](https://www.canva.com/), [Figma](https://www.figma.com/), and Powerpoint
+
+---
+
+<details>
+<summary><a href="https://www.berlingskemedia.dk">Berlingske Media</a> theme styles we used for the site and presentation.</summary>
+<br>
+
+![Berlingske Media theme styles](public/static/berlingske-theme-styles.png)
+
+</details>
