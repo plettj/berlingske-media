@@ -1,8 +1,8 @@
 # CBS Global Case Competition 2024
 
-The CBS Global Case Competition 2024 was on [Berlingske Media](https://www.berlingskemedia.dk), a Copenhagen-based news company in dire need of innovation.
+The [CBS Global Case Competition 2024](https://www.casecompetition.com/global/) was on [Berlingske Media](https://www.berlingskemedia.dk), a Copenhagen-based news company in dire need of innovation.
 
-I decided to put our team manifesto page up on a mimic domain, [berlingskemedia.org](https://www.berlingskemedia.org).
+I decided to put our team manifesto page up on a mimic domain, **[berlingskemedia.org](https://www.berlingskemedia.org)**.
 
 ### Site Preview
 
