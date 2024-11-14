@@ -26,12 +26,32 @@ export default function HomePage() {
         {isEn ? "CBS Case Competition 2024" : "CBS Case Konkurrence 2024"}
       </h1>
       <p className="mb-8 text-balance text-base">
-        We are{" "}
         <a
           className="text-blue-200 hover:underline"
-          href="https://www.berlingskemedia.org/"
+          href="https://www.linkedin.com/in/josiahplett/"
         >
-          {TEAM_NAME}
+          Josiah
+        </a>
+        ,{" "}
+        <a
+          className="text-blue-200 hover:underline"
+          href="https://www.linkedin.com/in/thienzhi/"
+        >
+          Thien
+        </a>
+        ,{" "}
+        <a
+          className="text-blue-200 hover:underline"
+          href="https://www.linkedin.com/in/benjaminmedina/"
+        >
+          Ben
+        </a>
+        , and{" "}
+        <a
+          className="text-blue-200 hover:underline"
+          href="https://www.linkedin.com/in/srishti-k-badaya/"
+        >
+          Srishti
         </a>
         .
       </p>
@@ -62,6 +82,24 @@ export default function HomePage() {
         <Link href="https://www.berlingskemedia.dk/">berlingskemedia.dk</Link>
       </Button>
       <p className="my-8 text-balance text-muted-foreground">
+        <i>
+          This is a mimic domain of{" "}
+          <a
+            className="underline hover:text-green-600"
+            href="https://www.berlingskemedia.dk/"
+          >
+            Berlingske Media
+          </a>{" "}
+          hosted by{" "}
+          <a
+            className="underline hover:text-green-600"
+            href="https://plett.dev"
+          >
+            Josiah
+          </a>
+        </i>
+        <br />
+        <br />
         {isEn ? COPYRIGHT_STRING_EN : COPYRIGHT_STRING_DK} {TEAM_NAME}
       </p>
     </div>
